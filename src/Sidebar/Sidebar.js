@@ -1,0 +1,11 @@
+import "./Sidebar.css";
+
+const Sidebar = ({ children }) => {
+  return (
+    <>
+      <section className="sidebar">{children}</section>
+    </>
+  );
+};
+
+export default Sidebar;
